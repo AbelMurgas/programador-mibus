@@ -14,7 +14,7 @@ def creacion_db_prueba_dos():
     db = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                passwd = "mysqlabel21",
+                passwd = "",
                 database = 'prueba_dos'
                 )
     my_cursor= db.cursor()
@@ -39,7 +39,7 @@ def insertar_datos_DDBB(datos):
     db = mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd = "mysqlabel21",
+            passwd = "",
             database = 'prueba_dos'
             )
     my_cursor= db.cursor()
